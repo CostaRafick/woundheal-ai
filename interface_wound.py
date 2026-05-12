@@ -8,7 +8,7 @@ from streamlit_drawable_canvas import st_canvas
 st.set_page_config(page_title="WoundHeal-AI Pro", layout="wide")
 
 st.title("🐍LATOX_IA: WoundHeal analyse")
-st.markdown("Use a IA para automatizar, ou desenhe a área manualmente quando necessário.")
+st.markdown("Ferramenta do projeto LATOX para automatizar as análises. Faça upload, ajuste a sensibilidade ou desenhe a área manualmente quando necessário.")
 
 st.sidebar.header("Configurações do Ensaio")
 escala = st.sidebar.number_input("Escala (pixels por µm)", value=0.5, step=0.1)
